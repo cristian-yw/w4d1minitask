@@ -1,0 +1,22 @@
+body{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table{
+    border-collapse: collapse;
+    width: 300px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 2);
+}
+.top-scorer {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+th, td{
+    padding: 12px;
+    border: 1px solid;
+    text-align: center;
+}
