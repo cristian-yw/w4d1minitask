@@ -1,0 +1,26 @@
+body{
+    background: #7c573d;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.chess {
+    display: grid;
+    grid-template-columns: repeat(8, 60px); 
+    grid-template-rows: repeat(8, 60px );
+    border: 10px solid #333333;
+    margin: auto;
+}
+
+.chess div{
+    width: 60px;
+    height: 60px;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
